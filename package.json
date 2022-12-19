@@ -15,9 +15,9 @@
     "stream-chat-react": "^3.0.0"
   },
   "scripts": {
-    "predeploy": "yarn run build",
+    "predeploy": "yarn install",
     "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
+    "start": "yarn start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
