@@ -1,6 +1,7 @@
 {
-  "name": "encrypted-web-chat",
+  "name": "web-based-live-chat-using-aes",
   "version": "0.1.0",
+  "homepage": "https://monstacat.github.io/web-based-live-chat-using-aes",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -14,10 +15,12 @@
     "stream-chat-react": "^3.0.0"
   },
   "scripts": {
-    "start": "yarn start",
-    "build": "yarn build",
-    "test": "yarn test",
-    "eject": "yarn eject"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
