@@ -1,7 +1,7 @@
 {
   "name": "web-based-live-chat-using-aes",
   "version": "0.1.0",
-  "homepage": "https://monstacat.github.io/web-based-live-chat-using-aes",
+  "homepage": "https://monstacat.github.io/web-based-live-chat-using-aes/public",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
